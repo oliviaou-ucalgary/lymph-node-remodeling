@@ -1,0 +1,1 @@
+This folder contains non-sensitive sample metadata, marker lists, and configuration templates.

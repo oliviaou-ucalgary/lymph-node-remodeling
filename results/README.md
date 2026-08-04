@@ -1,0 +1,1 @@
+Large analysis outputs are not stored in GitHub. This folder may contain small summary tables used by the manuscript.

@@ -1,0 +1,1 @@
+This folder contains the single-cell RNA-seq analysis scripts.
