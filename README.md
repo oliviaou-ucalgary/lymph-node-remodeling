@@ -1,4 +1,4 @@
-# Paper Seurat analysis
+# analysis
 
 This repository contains interactive R/Seurat v5 workflows for `Cxcl13`- and `Ccl21a`-selected cells/spots from a mouse lymph-node model, plus a G2M spatial analysis used for a reviewer response. Raw and controlled data are intentionally not included.
 
