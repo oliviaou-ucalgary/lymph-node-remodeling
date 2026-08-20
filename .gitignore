@@ -1,96 +1,37 @@
-############################################################
-# R and RStudio temporary files
-############################################################
-
+# R / RStudio state
 .Rhistory
 .RData
 .Ruserdata
 .Rproj.user/
 .Renviron
-.Rprofile
 
-############################################################
-# renv local package library
-############################################################
+# Local, machine-specific configuration and credentials
+config/local.R
+config/*.local.*
+*.pem
+*.key
+*credentials*
+*secrets*
 
-renv/library/
-renv/staging/
-renv/local/
-
-############################################################
-# Raw sequencing data
-############################################################
-
-*.fastq
-*.fastq.gz
-*.fq
-*.fq.gz
-*.bam
-*.bai
-*.cram
-*.crai
-
-############################################################
-# Large expression matrices and analysis objects
-############################################################
-
-*.rds
-*.RDS
-*.RData
+# Raw, controlled, and large analysis inputs
+data/
+raw_data/
+controlled_data/
 *.h5
-*.hdf5
 *.h5ad
 *.loom
-*.mtx
-*.mtx.gz
-*.cloupe
+*.parquet
+*.rds
+*.RDS
 
-############################################################
-# Spatial transcriptomics and microscopy images
-############################################################
+# Regenerable outputs and caches
+outputs/
+renv/library/
+renv/staging/
+.cache/
 
-*.tif
-*.tiff
-*.svs
-*.ndpi
-*.ome.tif
-*.ome.tiff
-
-############################################################
-# Archives
-############################################################
-
-*.zip
-*.tar
-*.tar.gz
-*.tgz
-*.7z
-
-############################################################
-# Credentials and private configuration
-############################################################
-
-.env
-.env.*
-credentials/
-credentials*
-secrets/
-private/
-config.yml
-
-############################################################
-# Operating-system files
-############################################################
-
+# OS/editor files
 .DS_Store
 Thumbs.db
-desktop.ini
+*.swp
 
-############################################################
-# Temporary and backup files
-############################################################
-
-*.tmp
-*.temp
-*.bak
-*~
